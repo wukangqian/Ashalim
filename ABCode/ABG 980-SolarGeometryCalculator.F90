@@ -1,7 +1,7 @@
 ! TRNSYS Type 980: Solar Geometry Calculator (Incidence Angle, Tracking Angle and Sunrise, Sunset)
 ! ----------------------------------------------------------------------------------------------------------------------
 !
-! Try GitHub
+! Try GitHub Try Try
 ! This routine calculates the sun position and the main solar angles as well as the sunrise and sunset. 
 ! The Excelergy solar geometry module has been converted to TRNSYS
 !
