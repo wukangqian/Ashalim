@@ -211,8 +211,8 @@ endif
 	SunSet = SolarNoon + DayLightHours / 2.
 
 !11- Solar time - in hours
-	SolarTime = StdTime + (StdLongD - LongD) / 15. + EOT / 60.
- 
+	!SolarTime = StdTime + (StdLongD - LongD) / 15. + EOT / 60.
+	SolarTime = StdTime - (StdLongD - LongD) / 15. + EOT / 60. !This should be modified KQW
 !12- Calculation of Hour Angle in radians
 	HourAngle = (SolarTime - 12.) * 15. 
 	HourAngle_rad = HourAngle * pi / 180.
